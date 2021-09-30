@@ -1,0 +1,43 @@
+.about {
+    background: black;
+    width: 100%;
+    padding: 100px 0;
+    color: white;
+}
+
+.col-6 {
+    text-align: left;
+}
+
+.about_img{
+    padding: 50px;
+}
+.about_img img{
+    width: 80%;
+}
+
+.about_box_details{
+    height: 650px;
+    align-items: center;
+}
+
+.about_info h1{
+    margin-bottom: 30px;
+    
+}
+
+.about-p1{
+    margin-bottom: 30px;
+}
+
+.about-p2{
+    margin-bottom: 30px;
+}
+
+.info-right{
+    float: right;
+}
+
+.info-contact strong{
+    color: red
+}

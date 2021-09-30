@@ -1,0 +1,49 @@
+.navBar {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top:0;
+    background-color:black;
+    text-transform: uppercase;
+    z-index: 10;
+}
+
+.active_navLink{
+    color: red;
+    border-bottom: 2px solid crimson;
+   
+}
+
+
+.navBar_container {
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.navBar_left_logo img{
+    height: 60px;
+}
+
+.navList_right {
+    display: flex;
+    list-style-type: none;
+}
+
+.navList_right li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 15px;
+}
+
+.navList_right li a:hover {
+    color: red;
+    
+    
+}
+
+

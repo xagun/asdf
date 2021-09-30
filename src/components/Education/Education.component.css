@@ -1,0 +1,47 @@
+.education{
+    background: rgb(7, 5, 4);
+    padding: 100px 0;
+    color: white;
+}
+
+
+
+
+.box{
+    padding: 30px;
+    background:rgb(27, 28, 29);
+    color:white;
+    text-align: left;
+    transition: all 0.5s linear;
+  }
+  
+
+
+.box:hover{
+    background-color: red;
+}
+
+.box:hover .commonIcons{
+    color: white;
+
+}
+
+  .box_header {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .box_name{
+    font-size: 16px;
+    color:white;
+    margin-bottom: 15px;
+    font-weight: 500;
+  
+  }
+  .box_details{
+    font-size: 14px;
+    color: antiquewhite;
+    
+  
+  }
